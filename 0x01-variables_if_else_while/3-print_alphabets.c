@@ -17,5 +17,6 @@ while (capLetter <= 'Z')
 putchar(capLetter);
 capLetter++;
 }
+putchar('\n');
 return (0);
 }
