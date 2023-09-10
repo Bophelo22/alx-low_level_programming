@@ -12,4 +12,5 @@ for (; reverse >= 'a'; reverse--)
 putchar(reverse);
 }
 putchar('\n');
+return (0);
 }
