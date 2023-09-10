@@ -5,12 +5,13 @@
 */
 int main(void)
 {
-char smallLetter = 'a';
-char capLetter = 'A';
-for (smallLetter; smallLetter <= 'z'; smallLetter++)
+char smallLetter;
+char capLetter;
+for (smallLetter = 'a'; smallLetter <= 'z'; smallLetter++)
 {
 putchar(smallLetter);
 }
+capLetter = 'A';
 while (capLetter <= 'Z')
 {
 putchar(capLetter);
