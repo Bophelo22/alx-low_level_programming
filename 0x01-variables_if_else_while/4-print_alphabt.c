@@ -7,8 +7,7 @@
 
 int main(void)
 {char letter = 'a';
-char endLetter = 'z';
-for (letter; letter <= endLetter; letter++)
+for (letter; letter <= 'z'; letter++)
 {
 if ((letter != 'q') && (letter != 'e'))
 {
