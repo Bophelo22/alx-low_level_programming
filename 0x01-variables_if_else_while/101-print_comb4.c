@@ -13,7 +13,7 @@ int j = i + 1;
 for (; j <= 9; j++)
 {
 int k = j + 1;
-for (9; k <= 9; k++)
+for (; k <= 9; k++)
 {
 putchar('0' + i);
 putchar('0' + j);
