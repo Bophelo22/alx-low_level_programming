@@ -3,20 +3,26 @@
  * main - the start of the execution
  * Return: 0 for success
  */
+
 int main(void)
 {
 int i = 0;
-int j;
 for (; i <= 9; i++)
 {
-for (j = i + 1; j <= 9; j++)
+int j = i + 1;
+for (; j <= 9; j++)
+{
+int k = j + 1;
+for (9; k <= 9; k++)
 {
 putchar('0' + i);
 putchar('0' + j);
-if ((i != 8) || (j != 9))
+putchar('0' + k);
+if ((i != 9) || (j != 9) || (k != 9))
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
