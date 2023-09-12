@@ -34,4 +34,5 @@ else
 {
 return (0); /* c is not lowercase */
 }
+_putchar('\n');
 }
