@@ -1,17 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - 0. _putchar
  * Return: 0 for success
-*/
+ */
 
 int main(void)
 {
-char letters[] = "_putchars";
-int i;
-for (i = 0; i <= sizeof(letters); i++)
-{
-putchar(letters[i]);
-}
-putchar('\n');
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 return (0);
 }
