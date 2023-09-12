@@ -14,7 +14,7 @@ return (0);
 /*function to print alphabets in ascending order*/
 void print_alphabet(void)
 {
-int i = 'a';
+char i = 'a';
 for (; i <= 'z'; i++)
 {
 _putchar(i);
