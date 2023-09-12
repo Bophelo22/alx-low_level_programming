@@ -9,7 +9,11 @@ int main(void)
 print_alphabet_x10();/*call the function*/
 return (0);
 }
-/*function to print to 10 x alphabet*/
+/**
+ * print_alphabet_x10 - function that prints alphabet
+ * @void: nothing to be used
+ * Return: this function returns nothing
+*/
 void print_alphabet_x10(void)
 {
 int i = 10;
