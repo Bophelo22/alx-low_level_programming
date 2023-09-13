@@ -1,5 +1,4 @@
 #include "main.h"
-#include "_putchar.c"
 
 /**
  * main - Write a function that prints the alphabet, in lowercase
