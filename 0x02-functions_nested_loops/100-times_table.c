@@ -32,10 +32,10 @@ _putchar('0' + result % 10);
 if (j < n)
 {
 _putchar(',');
-_putchar(' '); 
+_putchar(' ');
 }
 }
-_putchar('\n'); 
+_putchar('\n');
 }
 }
 }
