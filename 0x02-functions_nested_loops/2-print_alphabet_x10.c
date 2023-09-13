@@ -1,29 +1,26 @@
 #include "main.h"
 #include "_putchar.c"
 /**
- * main - 10 x alphabet
+ * main - Write a function that prints the alphabet, in lowercase
  * Return: 0 for success
-*/
+ */
+
 int main(void)
 {
-print_alphabet_x10();/*call the function*/
+print_alphabet(); /*call the function print_alphabet*/
 return (0);
 }
 /**
- * print_alphabet_x10 - function that prints alphabet
+ * print_alphabet - function to print alphabet
  * @void: nothing to be used
  * Return: this function returns nothing
 */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
-int i = 10;
-for (; i > 0; i--)
+char i = 'a';
+for (; i <= 'z'; i++)
 {
-char j = 'a';
-for (; j <= 'z'; j++)
-{
-_putchar(j);
+_putchar(i);
 }
 _putchar('\n');
-}
 }
