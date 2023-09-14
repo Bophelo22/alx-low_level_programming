@@ -14,7 +14,7 @@ sum = 0;
 for (count = 0; count < 50; count++)
 {
 sum = fb1 + fb2;
-printf("lu", sum);
+printf("%lu", sum);
 fb1 = fb2;
 fb2 = sum;
 if (count == 49)
@@ -23,7 +23,7 @@ printf("\n");
 }
 else
 {
-print(",");
+printf(",");
 }
 }
 return (0);
