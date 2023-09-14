@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-long j, k, sum, next;
+long i, j, k, sum;
 j = 1;
 k = 2;
 sum = 0;
@@ -15,9 +15,9 @@ if ((j % 2) == 0)
 {
 sum = sum + j;
 }
-next = j + k;
+i = j + k;/*the next value is stored in i*/
 j = k;
-k = next;
+k = i;
 }
 printf("%lu\n", sum);
 return (0);
