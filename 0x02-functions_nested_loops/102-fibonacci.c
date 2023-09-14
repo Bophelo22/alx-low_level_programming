@@ -7,7 +7,7 @@
 int main(void)
 {
 int count;
-unsigned long fb1, fb2, sum;
+unsigned long int fb1, fb2, sum;
 fb1 = 0;
 fb2 = 1;
 sum = 0;
@@ -23,7 +23,7 @@ printf("\n");
 }
 else
 {
-printf(",");
+printf(", ");
 }
 }
 return (0);
