@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include "1-isdigit.c"
 
 /**
  * main - check the code
