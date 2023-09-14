@@ -7,7 +7,7 @@
 int main(void)
 {
 int count;
-long fb1, fb2, sum;
+unsigned long fb1, fb2, sum;
 fb1 = 0;
 fb2 = 1;
 sum = 0;
