@@ -5,14 +5,14 @@
 */
 int main(void)
 {
-int i;
-long j, k, sum, next;
+unsigned long int j, k, sum, next;
 j = 1;
 k = 2;
 sum = 0;
+int i;
 for (i = 1; i <= 33; ++i)
 {
-if (((j < 44000000) && (j % 2) == 0))
+if ((j < 44000000) && ((j % 2) == 0))
 {
 sum += j;
 }
