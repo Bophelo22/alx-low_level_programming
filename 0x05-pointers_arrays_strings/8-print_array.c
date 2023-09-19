@@ -3,7 +3,7 @@
 /**
  * print_array - function that prints n elements of an array of integers,
  * followed by a new line.
- * @a: to be used 
+ * @a: to be used
  * @n: to be used
  * Return: void
  */
