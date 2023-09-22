@@ -10,10 +10,8 @@ int i;
 int j;
 i = 0;
 j = 0;
-char numb[10];
-char chars[10];
-numb[10] = "4433007711";
-chars[10] = "aAeEoOtTlL";
+char numb[] = "4433007711";
+char chars[] = "aAeEoOtTlL";
 for (; n[i] != '\0'; i++)
 {
 for (; j < 10; j++)
