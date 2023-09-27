@@ -22,7 +22,7 @@ return (sqrt);
 
 /**
  * rec_sqrt_recursion - to find the natural number
- * @r: input to use to find the root
+ * @n: input to use to find the root
  * @i: input to use to find the product
  * Return: the results of square root
 */
