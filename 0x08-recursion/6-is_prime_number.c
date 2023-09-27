@@ -2,7 +2,7 @@
 /**
  * is_prime_number - function that returns 1 if the input
  * integer is a prime number, otherwise return 0.
- * @n: input to be used to determine the 
+ * @n: input to be used to determine the
  * prime factor
  * Return: 1 if prime, 0 otherwise
 */
@@ -18,7 +18,7 @@ return (prime);
 }
 
 /**
- * rec_sqrt_recursion - to find the natural number
+ * act_is_prime_number - to find the prime number
  * @n: input to use to find the prime
  * @i: input to use in condition
  * Return: the results of square root
