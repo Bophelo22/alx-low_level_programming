@@ -12,4 +12,5 @@ int is_prime_number(int n);
 int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int rec_sqrt_recursion(int n, int i);
+int act_is_prime_number(int n, int i);
 #endif
