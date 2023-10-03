@@ -20,13 +20,13 @@ return (NULL);
 }
 for (; str[i] != '\0'; i++)
 {
-Str = malloc(sizeof(*str) * (i +1));
+Str = malloc(sizeof(*str) * (i + 1));
 }
 if (Str == NULL)
 {
 return (NULL);
 }
-for(; str[j]; j++)
+for (; str[j]; j++)
 {
 Str[j] = str[j];
 }
