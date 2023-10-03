@@ -4,7 +4,8 @@
  * create_array - function that returns a pointer to a newly
  * allocated space in memory, which contains a copy of the
  * string given as a parameter.
- * @str: pointer to be used
+ * @size: pointer to be used
+ * @c: char to be used
  * Return: pointer, NULL otherwise
 */
 char *create_array(unsigned int size, char c)
