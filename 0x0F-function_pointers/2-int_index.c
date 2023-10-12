@@ -8,29 +8,29 @@
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
-    int i, index;
-    int (*cmp_ptr)(int);
-    i = 0;
-    cmp_ptr = cmp;
+int i, index;
+int (*cmp_ptr)(int);
+i = 0;
+cmp_ptr = cmp;
 
-    if ((array != NULL) && (cmp_ptr != NULL))
-    {
-        for (; i < size; i++)
-        {
-            if (cmp_ptr(array[i]) != 0)
-            {
-                index = i;
-                return (index);
-            }
-        }
-    }
-    else if (size <= 0)
-    {
-        return (-1);
-    }
-    else
-    {
-        return (-1);
-    }
-    return (-1);
+if ((array != NULL) && (cmp_ptr != NULL))
+{
+for (; i < size; i++)
+{
+if (cmp_ptr(array[i]) != 0)
+{
+index = i;
+return (index);
+}
+}
+}
+else if (size <= 0)
+{
+return (-1);
+}
+else
+{
+return (-1);
+}
+return (-1);
 }
