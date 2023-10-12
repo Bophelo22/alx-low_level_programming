@@ -1,6 +1,4 @@
 #include "function_pointers.h"
-#include "3-get_op_func.c"
-#include "3-op_functions.c"
 #include <stdlib.h>
 #include <stdio.h>
 #include "3-calc.h"
