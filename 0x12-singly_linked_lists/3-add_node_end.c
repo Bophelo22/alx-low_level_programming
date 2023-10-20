@@ -16,11 +16,11 @@ while (str[len])
 {
 len++;
 }
+node = malloc(sizeof(node));
 if (!node)
 {
 return (NULL);
 }
-node = malloc(sizeof(node));
 node->str = strdup(str);
 node->len = len;
 node->next = NULL;
