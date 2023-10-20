@@ -14,5 +14,5 @@ node = head->next;
 free(head->str);
 free(head);
 head = node;
-}   
+}
 }
