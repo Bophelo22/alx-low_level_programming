@@ -7,18 +7,10 @@
 void free_listint(listint_t *head)
 {
 listint_t *ptr;
-ptr = malloc(sizeof(ptr));
-if (!ptr)
-{
-return;
-}
-else
-{
 while (!head)
 {
 ptr = head->next;
 free(head);
 head = ptr;
-}
 }
 }
