@@ -12,17 +12,11 @@ int sum;
 listint_t *ptr;
 sum = 0;
 ptr = head;
-if (!ptr)
-{
-return (0);
-}
-else
-{
+
 while (ptr)
 {
 sum += ptr->n;
 ptr = ptr->next;
 }
 return (sum);
-}
 }
